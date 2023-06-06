@@ -9,7 +9,9 @@ const client = new ApolloClient({
     uri: process.env.REACT_APP_API_URL,
     cache: new InMemoryCache()
 })
-/*client.query({
+/*
+UPDATE
+client.query({
     query: ''
 }).then(result=>{console.log(result)}).catch(e=>console.log(e))*/
 const root = ReactDOM.createRoot(document.getElementById('root'));
